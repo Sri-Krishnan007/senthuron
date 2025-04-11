@@ -62,7 +62,7 @@ AppCopilot/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/appcopilot.git
+   git clone https://github.com/Sri-Krishnan007/senthuron.git
    cd appcopilot
    ```
 
@@ -80,13 +80,6 @@ AppCopilot/
 4. **MongoDB Configuration:**
    - Ensure your MongoDB instance is running and connected to the app.
 
----
-
-## 📬 Contact
-
-**Developer:** [Your Name]  
-**Email:** [your.email@example.com]  
-**GitHub:** [github.com/yourusername](https://github.com/yourusername)
 
 ---
 
