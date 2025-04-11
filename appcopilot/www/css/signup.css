@@ -1,0 +1,106 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f0f4f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container */
+.signup-container {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 420px;
+  width: 100%;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Headline */
+.signup-container h2 {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Form fields */
+input.form-control {
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Checkbox */
+.form-check-input {
+  margin-top: 0.35rem;
+}
+
+.form-check-label {
+  margin-left: 0.5rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Buttons */
+button[type="submit"],
+#goToLoginBtn {
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+  transform: scale(1.02);
+}
+
+#goToLoginBtn {
+  display: none;
+  margin-top: 1rem;
+}
+
+#goToLoginBtn:hover {
+  background-color: #218838;
+  transform: scale(1.02);
+}
+
+/* Message */
+#msg {
+  font-size: 0.95rem;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .signup-container {
+    padding: 1.5rem;
+  }
+}
